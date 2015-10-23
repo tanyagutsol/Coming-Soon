@@ -1,0 +1,170 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: #7d797c url(../img/background.jpg) center center no-repeat fixed;
+	background-size: cover;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	color: #fff;
+}
+
+.clearfix:before, .clearfix:after{
+	content:"";
+	display: table;
+}
+
+.clearfix:after{
+	clear: both;
+}
+
+h1, h2, h3, button, time{
+	font-family: Teko, sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+h1{
+	font-family: Teko, sans-serif;
+	font-size: 120px;
+	font-weight: 300;
+	letter-spacing: 20px;
+	text-transform: uppercase;
+}
+
+h2{ 
+	font-size: 26px;
+	letter-spacing: 2px;
+}
+
+input {
+line-height: 2.5;
+padding-left: 1em;
+width: 250px;
+vertical-align: middle;
+}
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+	height: 100vh;
+}
+
+.logo{
+	float: left;
+	width: 70px;
+	height: 70px;
+}
+
+.logo img{
+	width: 100%;
+	height: auto;
+}
+
+#hamburger {
+padding: 15px;
+background-color: black;
+}
+
+}
+#hamburger div{
+	width: 40px;
+	height: 5px;
+	margin-top:8px;
+	background-color: white;
+}
+#hamburger div:first-child{ margin-top: 0;
+
+}
+
+header nav{
+	float: right;
+}
+
+header nav ul{
+	display: none;
+}
+
+button {
+height: 39px;
+border: none;
+background-color: red;
+color: white;
+font-style: 18px;
+letter-spacing: 3px;
+padding: 0 20px;
+vertical-align: middle;
+}
+
+ a {
+ 	color: inherit;
+ 	text-decoration: none;
+ }
+/*Main*/
+
+main{
+	width: 60%;
+	position: relative;
+	top: 10%;
+	margin-bottom: 10%;
+}
+
+main > *{
+	display: inline-block;
+		margin-bottom: 30px;
+
+}
+main section{ 
+	margin-top: 10px
+}
+main section > *:not(:last-child){
+	margin-bottom: 30px;
+}
+
+b.lead{
+	display: block;
+	font-size: 26px;
+	font-weight: 300;
+	color: #d9d8d9;
+}
+/*Twitter*/
+
+i.fa-twitter {
+margin-right: 1.5em;
+}
+
+aside article {
+margin-top: 10px;
+margin-left: 39px;
+width: 211px;
+font-size: 12px;
+}
+
+article time {
+	display: block;
+	margin-top: 10px;
+	color: #777;
+	font-size: inherit;
+}
+/*Footer*/
+footer{
+	font-size: 12px;
+	color: #777;
+
+}
+footer p{
+float: left;
+}
+footer p a{
+	color: white;
+}
+
+.terms-privacy{
+	float: right;
+}
+.terms-privacy a.first-child{
+	margin-right: 2em;
+}
+
